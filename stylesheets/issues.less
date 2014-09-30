@@ -1,0 +1,24 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+
+
+/* @import "ui-variables"; */
+
+.issues-view {
+    padding: 15px 10px;
+    /* max-height: 200px; */
+
+    .issues-list {
+        /* height: ~"calc(100% - 20px)";  */
+        max-height: 180px;
+        overflow-y: auto;
+
+        .issue {
+            .issue-title { cursor: pointer; }
+            .issue-body { display: none; }
+            &.open .issue-body { display: block; }
+        }
+    }
+}

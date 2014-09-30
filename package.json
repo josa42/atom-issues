@@ -1,0 +1,18 @@
+{
+  "name": "issues",
+  "main": "./lib/issues",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": [
+    "issues:toggle"
+  ],
+  "repository": "https://github.com/josa42/atom-issues",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "atom-message-panel": "^1.1.1",
+    "request": "^2.44.0"
+  }
+}
